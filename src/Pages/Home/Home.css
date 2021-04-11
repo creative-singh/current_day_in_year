@@ -1,0 +1,9 @@
+hr {
+  /* width: "50%"; */
+  /* color: #e9c46a; */
+  border-bottom: 20px solid #e9c46a;
+  border-radius: 15px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
