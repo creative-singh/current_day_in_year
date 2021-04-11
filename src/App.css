@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+}
+header h1 {
+  color: #800000;
+}
+hr {
+  width: 50%;
+}
+h5 {
+  color: #000080;
+  padding-left: 5%;
+}
+.container {
+  border: 2px solid;
+  width: 70%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+.container p {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.smText {
+  padding-left: 15%;
+  font-size: smaller;
+}
