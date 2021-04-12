@@ -34,17 +34,29 @@ const Index = () => {
       "November",
       "December",
     ];
-    setDaysLeft(
-      Math.ceil(
-        (date - new Date(date.slice(0, 4), 0, 1)) / 86400000
-      )
+    // setDaysLeft(
+    //   Math.ceil(
+    //     (date - new Date(date.slice(0, 4), 0, 1)) / 86400000
+    //   )
+    // );
+    let currDate = new Date();
+    // currDate = ;
+    let myVal;
+    console.log(
+      (currDate - new Date(currDate.getFullYear(), 0, 1)) /
+        86400000
     );
-    // console.log(date.slice(0, 4));
+    console.log(
+      (currDate - new Date(date.slice(0, 4), 0, 1)) /
+        86400000
+    );
+    console.log(currDate);
   }, [date]);
 
   return (
     <div>
       <h1>Days left in your bday</h1>
+      <hr />
       <form>
         <input
           type="date"
